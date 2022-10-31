@@ -1,0 +1,31 @@
+:root {
+  /* Fomt family */
+  --main-family: "Nunito Sans", sans-serif;
+  --headers-family: "Open Sans", sans-serif;
+  /* Font sizes */
+  --nav-size: 18px;
+  --section-title-size: 60px;
+  --main-size: 20px;
+  --service-title-size: 28px;
+
+  /* Colors */
+  --main-color: #ffffff;
+  --secondary-color: #ffffffb2;
+  --primary-color: #5454d4;
+
+  /* Spicific variables */
+  --container-width: 1200px;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --container-width: 1000px;
+  }
+}
+@media (max-width: 440px) {
+  :root {
+    --main-size: 16px;
+    --service-title-size: 36px;
+    --section-title-size: 24px;
+  }
+}
